@@ -16,4 +16,8 @@ document.getElementById('searchInput').addEventListener('input', function() {
       }
     });
   });
-  
+
+  /*<!-- JavaScript code to close the Navbar toggle menu once a link is clicked -->*/
+  function closeNavbar() {
+    $(".navbar-collapse").collapse('hide');
+  }

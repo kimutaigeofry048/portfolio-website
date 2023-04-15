@@ -9,140 +9,159 @@ h6,
 p,
 a,
 button {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Set body background color and font style */
 body {
-  background-color: #f8f9fa;
-  font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
 }
 
 /* Set custom margin for the header section */
 #header {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 /* Style the profile picture */
 
 /* Custom CSS to control the image size on smaller screens */
 .profile-picture {
-    max-width: 150px; /* Set the maximum width for the image */
-    height: auto; /* Allow the height to adjust proportionally */
-  }
-  
-  /* Media query to adjust image size on smaller screens */
-  @media (max-width: 576px) {
+    max-width: 150px;
+    /* Set the maximum width for the image */
+    height: auto;
+    /* Allow the height to adjust proportionally */
+}
+
+/* Media query to adjust image size on smaller screens */
+@media (max-width: 576px) {
     .profile-picture {
-      max-width: 100px; /* Set a smaller maximum width for smaller screens */
+        max-width: 100px;
+        /* Set a smaller maximum width for smaller screens */
     }
-  }
-  
+}
+
 
 /* Style the project cards */
 .card {
-  margin-bottom: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card-title {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .card-text {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 /* Style the contact form */
 #contact {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .form-control {
-  border-radius: 0;
+    border-radius: 0;
 }
 
 /* Style the footer */
 footer {
-  background-color: #343a40;
-  color: #fff;
-  margin-top: 50px;
-  padding: 15px 0;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 50px;
+    padding: 15px 0;
 }
 
 /* Center align the footer text */
 footer p {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* Media query for responsive layout */
 @media (max-width: 768px) {
-  h1.display-4 {
-    font-size: 32px;
-  }
+    h1.display-4 {
+        font-size: 32px;
+    }
 
-  #profile-pic {
-    max-width: 150px;
-  }
+    #profile-pic {
+        max-width: 150px;
+    }
 
-  .card {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
+    .card {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 
-  footer {
-    padding: 10px 0;
-  }
+    footer {
+        padding: 10px 0;
+    }
 }
 
 /*skills/*
 /* Style the card with ID 'skills' */
 #skills {
-    padding: 2rem !important; /* Add custom padding */
-    background-color: #fff; /* Set background color */
-    border-radius: 4px; /* Add border radius */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
-  }
-  
-  /* Style the skills section with the class 'p-5' */
-  .p-5 {
-    padding: 1.25rem !important; /* Add custom padding */
-  }
-  
-  /* Style the skills section title */
-  .skills-title {
-    font-size: 24px; /* Set font size */
-    font-weight: bold; /* Set font weight */
-    margin-bottom: 20px; /* Add margin bottom */
-  }
-  
-  /* Style the skills list */
-  .skills-list {
-    list-style-type: none; /* Remove default list style */
-    padding-left: 0; /* Remove default padding */
-  }
-  
-  /* Style the individual skill items */
-  .skills-list li {
-    margin-bottom: 10px; /* Add margin bottom */
-  }
-  
-  /* Style the skill item name */
-  .skill-name {
-    font-weight: bold; /* Set font weight */
-  }
-  
-  /* Style the skill item progress bar */
-  .progress {
-    height: 10px; /* Set height */
-    border-radius: 4px; /* Add border radius */
-  }
-  
-  /* Style the progress bar fill color */
-  .progress-bar {
-    background-color: #007bff; /* Set fill color */
-  }
+    padding: 2rem !important;
+    /* Add custom padding */
+    background-color: #fff;
+    /* Set background color */
+    border-radius: 4px;
+    /* Add border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add box shadow */
+}
+
+/* Style the skills section with the class 'p-5' */
+.p-5 {
+    padding: 1.25rem !important;
+    /* Add custom padding */
+}
+
+/* Style the skills section title */
+.skills-title {
+    font-size: 24px;
+    /* Set font size */
+    font-weight: bold;
+    /* Set font weight */
+    margin-bottom: 20px;
+    /* Add margin bottom */
+}
+
+/* Style the skills list */
+.skills-list {
+    list-style-type: none;
+    /* Remove default list style */
+    padding-left: 0;
+    /* Remove default padding */
+}
+
+/* Style the individual skill items */
+.skills-list li {
+    margin-bottom: 10px;
+    /* Add margin bottom */
+}
+
+/* Style the skill item name */
+.skill-name {
+    font-weight: bold;
+    /* Set font weight */
+}
+
+/* Style the skill item progress bar */
+.progress {
+    height: 10px;
+    /* Set height */
+    border-radius: 4px;
+    /* Add border radius */
+}
+
+/* Style the progress bar fill color */
+.progress-bar {
+    background-color: #007bff;
+    /* Set fill color */
+}
+
 /* CSS */
 #searchInput {
     width: 100%;
@@ -154,70 +173,83 @@ footer p {
     color: #333;
     font-size: 16px;
     transition: background-color 0.3s ease;
-  }
-  
-  #searchInput:focus {
+}
+
+#searchInput:focus {
     background-color: #e9ecef;
     outline: none;
-  }
-  /* Custom CSS for section background color, border, and shadow */
-#about,#skills,#projects,#contact{
-    background-color: #f8f9fa; /* Set the desired background color */
-    border: 1px solid #5e666e; /* Set the desired border style and color */
+}
+
+/* Custom CSS for section background color, border, and shadow */
+#about,
+#skills,
+#projects,
+#contact {
+    background-color: #f8f9fa;
+    /* Set the desired background color */
+    border: 1px solid #5e666e;
+    /* Set the desired border style and color */
     border-radius: 10px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); /* Set the desired box shadow */
-    padding: 30px; /* Add padding to the section for spacing */
-   
-  }
-  #social-media-icons{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    /* Set the desired box shadow */
+    padding: 30px;
+    /* Add padding to the section for spacing */
+
+}
+
+#social-media-icons {
     margin-top: -250px;
     font-size: 30px;
 
-  }
-  #social-media-icons a{
-    line-height: 2.0;
-  }
-  /* CSS for responsive form */
+}
+
+#social-media-icons a {
+    line-height: 0.5;
+}
+
+/* CSS for responsive form */
 .form-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     flex-basis: 100%;
     margin-bottom: 15px;
-  }
-  
-  @media (min-width: 576px) {
+}
+
+@media (min-width: 576px) {
     .form-group {
-      flex-basis: 48%;
+        flex-basis: 48%;
     }
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .form-group {
-      flex-basis: 30%;
+        flex-basis: 10%;
+        display: block;
     }
-  }
-  .list-ico,
-  .socials ul {
+}
+
+.list-ico,
+.socials ul {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
-  }
-  
-  .list-ico {
+}
+
+.list-ico {
     line-height: 2;
-  }
-  
-  .list-ico span {
+}
+
+.list-ico span {
     color: #0078ff;
     margin-right: 10px;
-  }
-  
-  /*------/ Ico Circle /------*/
-  .ico-circle {
+}
+
+/*------/ Ico Circle /------*/
+.ico-circle {
     height: 100px;
     width: 100px;
     font-size: 2rem;
@@ -227,15 +259,17 @@ footer p {
     text-align: center;
     box-shadow: 0 0 0 10px #0078ff;
     display: block;
-  } .socials {
+}
+
+.socials {
     padding: 1.5rem 0;
-  }
-  
-  .socials ul li {
+}
+
+.socials ul li {
     display: inline-block;
-  }
-  
-  .socials .ico-circle {
+}
+
+.socials .ico-circle {
     height: 40px;
     width: 40px;
     font-size: 1.2rem;
@@ -244,11 +278,43 @@ footer p {
     margin: 0 15px 0 0;
     box-shadow: 0 0 0 3px #0078ff;
     transition: all 500ms ease;
-  }
-  
-  .socials .ico-circle:hover {
+}
+
+.socials .ico-circle:hover {
     background-color: #0078ff;
     color: #fff;
     box-shadow: 0 0 0 3px #cde1f8;
     transition: all 500ms ease;
-  }
+}
+
+@media (max-width: 768px) {
+    .socials .ico-circle {
+        display: block;
+        height: 25px;
+        width: 25px;
+        font-size: 1.0rem;
+        line-height: 1.5;
+        margin: 5px;
+        border: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #contact {
+        border: 2px;
+        box-shadow: none;
+        width: 175px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 768px) {
+    .more-info {
+        border: none;
+        width: 175px;
+        font-size: 14px;
+        line-height: 1.5;
+
+    }
+}
